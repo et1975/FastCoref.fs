@@ -1,0 +1,26 @@
+# Build output
+bin/
+obj/
+out/
+
+# FAKE / fsdocs build artifacts
+Directory.Build.props
+.fsdocs/
+output/
+temp/
+
+# IDE / editor
+.vs/
+.idea/
+.vscode/launch.json
+*.user
+*.suo
+
+# F#/.NET
+*.nupkg
+
+# macOS
+.DS_Store
+
+# Misc
+*.swp
